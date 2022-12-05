@@ -12,3 +12,16 @@ In my spare time I study programming and learn English. Quite a lot and constant
 
 I believe that I will succeed. I was not the first to walk this road. 
 I won't be the last. It's like a marathon. The main thing is not to stop.
+
+## Goals
+
+ * Successfully pass RSShcool courses, gain skills and knowledge
+ * Improve your English level to B2
+ * Interviews and get a job as a JS programmer
+ * Come to RSSchool as a mentor and help new students
+
+## Education
+
+ * Self-study based on free online courses
+ * 4 years studied at the technical university
+ * Studies in the previous RSSchool course
