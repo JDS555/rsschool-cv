@@ -1,4 +1,4 @@
-1# Alex Petrov
+# Alex Petrov
 
 ## Contacts
 
