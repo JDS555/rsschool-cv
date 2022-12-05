@@ -28,7 +28,7 @@ I won't be the last. It's like a marathon. The main thing is not to stop.
 
 ## Educational projects
 
-nature-sound:[https://JDS555.github.io/nature-sound/](nature-sound)
+nature-sound:[https://JDS555.github.io/nature-sound/index.html](nature-sound)
 
 ## Hard-skills
 
