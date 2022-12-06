@@ -20,7 +20,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
-   
-  </body>
+  <body class="theme-night" id="theme-page">
+
+   <header class="main-header">
+     <div class="wrapper-header">
+        <img class="header-image" src="img/solidarity-Ukraine.png" width="125" height="125" alt="#StandWithUkraine #StopWar">
+        <div class="wrapper-hashtags">
+           <span class="hasgtags">#StandWithUkraine</span>
+           <span class="hasgtags">#VictoryForUkraine!</span>
+        </div>
+       
+       <div class="wrapper-theme-button">
+           <button class="theme-button" id="theme-button"><span class="visually-hidden">Switch Theme</span></button>
+        </div>
+  </div>
+
+   </header>
+
+   <main class="main-grid default-cursor">
+
+        <section class="about main-grid-column">
+           <h2 class="visually-hidden">Personal information</h2>
+
+           <div class="personal">
+              <div class="wrapper-personal-image">
+                 <img class="personal-image" id="image" src="img/img-photo-1.jpg" width="327" height="327" alt="My avatar" title="Hey, what’s going on here?" style="border-radius: 50%;">
+              </div>
+              <div class="wrapper-personal-text">
+                 <b class="personal-name">Alex Petrov</b>
+                 <h1 class="personal-role">Trainee JS Developer</h1>
+              </div>
+           </div>
+
+           <div class="feature">
+              <h3 class="feature-title">About</h3>
+              <div class="wrapper-feature-list">
+                 <ul class="feature-list column">
+                    <li class="feature-item item-1">29</li>
+                    <li class="feature-item item-2">Minsk</li>
+                    <li class="feature-item item-3">Tech</li>
+                 </ul>
+                 <ul class="feature-list column">
+                    <li class="feature-item item-4">Inc.higher</li>
+                    <li class="feature-item item-5">Male</li>
+                    <li class="feature-item item-6">Married</li>
+                 </ul>
+              </div>	
+           </div>
+
+           <nav class="wrapper-links">
+              <ul class="links-list">
+                 <li class="links-item"><a class="anchor" href="mailto:nfive.5.101@gmail.com" title="nfive.5.101@gmail.com">EMAIL: nfive.5.101@gmail.com</a></li>
+                 <li class="links-item"><a class="anchor" href="tel:+37529847807" title="+375(29)8478807">VIBER: +375(29)8478807</a></li>
+                 <li class="links-item"><a class="anchor" href="https://t.me/N48_FBP" title="N48_FBP">TELEGRAM: N48</a></li>
+              </ul>
+           </nav>
+        </section>
+
+        <section class="motivation main-grid-column">
+           <h2 class="visually-hidden">About my motivation</h2>
+
+           <section class="motivation-description">
+              <h3 class="motivation-title">Motivation</h3>
+              <p>I want to get a new profession JS programmer.
+                  I work in a warehouse as a forklift driver.
+                  In my spare time I study programming and learn English.
+                  Quite a lot and constantly learning.
+                  I believe that I will succeed.
+                  I was not the first to walk this road. 
+                  I won't be the last. It's like a marathon.
+                  The main thing is not to stop.</p>
+           </section>
+
+           <article class="goals-description">
+              <h3 class="goals-title">Goals:</h3>
+              <ul class="goals-list">
+                 <li class="goals-item">Successfully pass RSShcool courses, gain skills and knowledge</li>
+                 <li class="goals-item">Improve your English level to B2</li>
+                 <li class="goals-item">Interviews and get a job as a JS programmer</li>
+                 <li class="goals-item">Come to RSSchool as a mentor and help new students</li>
+              </ul>
+           </article>
+
+           <section class="education">
+              <h3 class="education-title">Education and training:</h3>
+              <ul class="education-list">
+                 <li class="education-item">Self-study based on free online courses</li>
+                 <li class="education-item">4 years studied at the technical university</li>
+                 <li class="education-item">Studies in the previous RSSchool course</li>
+              </ul>
+           </section>
+
+           <article class="my-projects">
+              <h3 class="progect-title">Educational project:</h3>
+              <a class="project-nature-sound" href="https://JDS555.github.io/nature-sound/" title="Educational project">nature-sound</a>
+           </article>
+
+        </section>
+
+        <section class="personality main-grid-column">
+           <h2 class="visually-hidden">The simplest piece of code</h2>
+           <section class="code-snippet">
+              <h3 class="code-snippet-title">Code snippet:</h3>
+              <pre><code>
+<span class="c1">function</span> <span class=""><span class="c2">findMissing</span></span><span class="c3">(</span><span class="c4">arr1</span>, <span class="c4">arr2</span><span class="c3">)</span> <span class="c3">{</span>
+<span class="c4">arr1</span>.<span class="c2">sort</span><span class="c1">()</span>; 
+<span class="c4">arr2</span>.<span class="c2">sort</span><span class="c1">()</span>;
+<span class="c1">for</span> <span class="c1">(var</span> <span class="c4">i</span> <span class="c2">=</span><span class="c3">0</span>;<span class="c4">i</span> <span class="c2">&lt;</span><span class="c4">arr1</span>.<span class="c4">length</span>;<span class="c4">i</span><span class="c2">++</span><span class="c1">)</span>
+ <span class="c1">if</span> <span class="c1">(</span><span class="c4">arr1</span><span class="c2">[</span><span class="c4">i</span><span class="c2">]</span> <span class="c2">!=</span> <span class="c4">arr2</span><span class="c2">[</span><span class="c4">i</span><span class="c2">]</span><span class="c1">)</span> 
+  <span class="c1">return</span> <span class="c4">arr1</span><span class="c1">[</span><span class="c4">i</span><span class="c1">]</span>;
+<span class="c3">}</span>
+              </code></pre>
+           </section>
+
+           <section class="soft-skills">
+              <h4 class="soft-skills-title">Soft-skills:</h4>
+              <ul class="soft-skills-list">
+                 <li class="soft-skills-item">Time management</li>
+                 <li class="soft-skills-item">Communication skills</li>
+                 <li class="soft-skills-item">Teamwork</li>
+                 <li class="soft-skills-item">Proactive behavior</li>
+              </ul>
+              <h5 class="soft-skills-english-title">English level:</h5>
+              <div class="wrapper-soft-skills-english">
+                 <p class="soft-skills-english">A2+</p>
+              </div>
+           </section>
+
+           <aside class="hard-skills">
+              <h5 class="hard-skills-title">Hard-skills:</h5>
+              <ul class="hard-skill-list">
+                 <li class="hard-skills-item">
+                    <p class="hard-skills-description">HTML</p>
+                    <ul class="decorator">
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                    </ul>
+                 </li>
+                 <li class="hard-skills-item">
+                    <p class="hard-skills-description">CSS</p>
+                    <ul class="decorator">
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                    </ul>
+                 </li>
+                 <li class="hard-skills-item">
+                    <p class="hard-skills-description">JS</p>
+                    <ul class="decorator">
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle yelow-circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                       <li><span class="circle"></span></li>
+                    </ul>
+                 </li>
+              </ul>
+           </aside>
+
+        </section>
+     </main>
+
+   <footer>
+        <div class="wrapper-footer-list">
+           <ul class="footer-list">
+              <li class="footer-item">
+                 <a class="dev-link" href="https://github.com/JDS555" title="JDS555"><img class="dev-git-logo" src="img/logo-github.png" alt="GitHub" width="288" height="69"></a>
+              </li>
+              <li class="footer-item-year">
+                 <span class="footer-year">2022</span>
+              </li>
+              <li class="footer-item">
+                 <a class="rsschool-link" href="https://rs.school/js/" title="RSSchool JS/FE"><img class="rsschool-logo" src="img/logo-rs.svg" width="280" height="80" alt="RSSchool Course JS/FE"></a>
+              </li>
+           </ul>
+        </div>
+     </footer>
+   <script src="js/script.js"></script>
+ </body>
 </html>
