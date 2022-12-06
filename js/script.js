@@ -1,3 +1,4 @@
+
 //! script for switching theme and photos on hovering
 
 const switcherButton = document.getElementById("theme-button");
@@ -62,6 +63,6 @@ selfChecking = `Итоговая оценка: 120 баллов
 	+ CV выполнено на английском языке +10
 	
 	Невыполненные пункты:
-	-Нет блока навигации. Но по замыслу макета тут навигация не предусмотрена.`
+	-Нет блока навигации. Но по замыслу макета тут навигация не предусмотрена.`;
 console.log( selfChecking );
 // ~~~~~
